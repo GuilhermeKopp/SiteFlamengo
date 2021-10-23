@@ -154,18 +154,89 @@ header #logotipo {
 	margin-top: -20px;
 }
 #call-to-action {
+	position: relative;
+	top: -60px;
 	text-align: center;
+}
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
 }
 #call-to-action h2 {
     color: #8E0505;
-	font-family: 'OpenSans-Light';
+    font-family: 'OpenSans-Light';
 	font-size: 48px;
-	text-transform: uppercase;
 	text-align: center;
-	margin-top: -200px;
+	margin-top: 100px;
 }
 #call-to-action hr {
-	border: #FDE192 solid 8px;
+	border: #000000 solid 8px;
 	width: 200px;
 	margin: 0 auto;
+}
+#call-to-action p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #000000;
+}
+#call-to-action .btn {
+	min-width: 164px;
+	height: 44px;
+	line-height: 30px;
+	border-radius: 0px;
+}
+#call-to-action .btn-vermelho {
+	color: #FBFBFB;
+	background-color: #E02401;
+	border-color: #E02401;
+	margin-left: 30px;
+}
+#call-to-action .btn-preto {
+	color: #FBFBFB;
+	background-color: #000;
+	border-color: #000;
+	margin-left: 120px;
+}
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+footer {
+	margin-top: 90px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+footer .row {
+	width: 101%;
+}
+footer .row-preto-claro {
+    height: 200px;
+    background: rgb(13,11,11);
+    background: linear-gradient(180deg, rgba(13,11,11,1) 0%, rgba(25,23,23,1) 100%);
+}
+footer .row-preto-escuro {
+    height: 60px;
+    background: rgb(18,17,17);
+    background: linear-gradient(180deg, rgba(18,17,17,1) 0%, rgba(15,14,14,1) 100%);
+    border-top: #242D37 1px solid;
+}
+footer p {
+    line-height: 60px;
+}
+footer .pull-left {
+	font-family: 'OpenSans-Light';
+	font-size: 14px;
+	color: #950101;
+	margin-bottom: 0px;
+    float: left;
+    margin-left: 20px;
+}
+footer .text-branco {
+	color: #950101;
+	font-family: 'OpenSans-Light';
+	font-weight: bold;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
 }
