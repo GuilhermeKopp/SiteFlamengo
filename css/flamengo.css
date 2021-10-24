@@ -118,7 +118,7 @@ header #logotipo {
 #news .thumbnails h3 {
 	color: #3D0000;
 	font-size: 18px;
-	font-family: 'OpenSans-Light';
+	font-family: Arial;
 	font-weight: bold;
 	margin-top: 10px;
 	margin-left: 0px;
@@ -142,7 +142,7 @@ header #logotipo {
 	color: #AE841A;
 	font-family: 'OpenSans-Light';
 	font-size: 64px;
-	margin-left: 260px;
+	margin-left: 246px;
 	margin-top: 36px;
 }
 #estatisticas p small{
@@ -227,16 +227,66 @@ footer p {
 footer .pull-left {
 	font-family: 'OpenSans-Light';
 	font-size: 14px;
-	color: #950101;
+	color: #444;
 	margin-bottom: 0px;
     float: left;
     margin-left: 20px;
 }
 footer .text-branco {
-	color: #950101;
+	color: #444;
 	font-family: 'OpenSans-Light';
 	font-weight: bold;
     font-size: 14px;
     float: right;
     margin-right: 20px;
+}
+footer .logotipo {
+	position: relative;
+	top: 30px;
+	width: 55%;
+	height: 150px;
+	margin-left: 75px;
+}
+footer .col-md-4 {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-family: Arial;
+	font-size: 20px;
+	color: #FBFBFB;
+	padding-bottom: 16px;
+	border-bottom: #FBFBFB 1px solid;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: #FBFBFB;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links a {
+	color: #FBFBFB;
+	font-family: Arial;
+	font-size: 16px;
+}
+footer .col-get-in-touch address {
+	color: #FBFBFB;
+	font-family: Arial;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+footer .col-get-in-touch i {
+	color: #FBFBFB;
+	font-size: 14px;
+	margin: 0 6px;
+}
+footer .col-get-in-touch p {
+	line-height: 50px;
+}
+footer .col-get-in-touch a {
+	color: #FBFBFB;
 }
